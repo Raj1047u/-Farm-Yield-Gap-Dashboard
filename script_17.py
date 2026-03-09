@@ -1,4 +1,6 @@
-# 🌾 AI Farm Yield Gap Analysis Platform
+
+# Create comprehensive README.md
+readme = '''# 🌾 AI Farm Yield Gap Analysis Platform
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.29-red)
@@ -379,3 +381,9 @@ For questions or support:
 **Built with ❤️ for Indian farmers**
 
 *Closing the yield gap, one farm at a time* 🌾
+'''
+
+with open('yield_gap_analysis/README.md', 'w') as f:
+    f.write(readme)
+
+print("✅ Created comprehensive README.md")

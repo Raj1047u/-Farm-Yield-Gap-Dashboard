@@ -1,0 +1,25 @@
+# Core dependencies
+streamlit
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+xgboost
+joblib
+shap
+
+# Visualization
+plotly
+folium
+streamlit-folium
+matplotlib
+seaborn
+
+# API (for future use)
+fastapi
+uvicorn
+
+# Utilities
+reportlab
+openpyxl
